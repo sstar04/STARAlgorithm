@@ -12,8 +12,7 @@ VTK library
 
 Linux instruction for running demo 
 ===========
-1. Copy TestAlgortihm anywhere you like
-
+1. Copy TestAlgortihm anywhere you like and enter the folder
      cd TestAlgorithm
 
 2. Use the makefile_lib to compile the CUDA code 
