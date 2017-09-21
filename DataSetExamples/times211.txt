@@ -1,0 +1,12 @@
+OUTPUT FILE DataSetExamples/Cells211.vtk
+Npart:497
+Ncells: 512
+Execution time for CCL algorithm (using kernelB) :1.34064
+Total number of loops: 8
+Execution time for Renumber_subgraph:2.85427
+
+Total number of subgraphs 2
+Execution time for the environment subgraph search: 0.01776
+ Execution time for broadcasting the value 2 at the environment subgraphs: 0.029728
+ Execution time for border node detection: 0.018048
+ Execution time to determine the list of point data at the boundary of the cell cluster : 0.013568
