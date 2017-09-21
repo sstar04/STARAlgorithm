@@ -4,6 +4,7 @@ The STAR (Shape of Tumor Algorithmic Reconstruction) algorithm defines the shape
 Prerequisites
 =============
 NVIDIA Graphic card with CUDA support
+
 VTK library
 
 
