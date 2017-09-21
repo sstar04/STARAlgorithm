@@ -1,7 +1,7 @@
 # STARAlgorithm
 The STAR (Shape of Tumor Algorithmic Reconstruction) algorithm defines the shape of cluster of cells and searches for the boudary and voids in 3D environment. The algorithm is GPU based and it is written using CUDA programming interface by NVIDIA and the Thrust library. The code include a function for visualization purpose implemented using VTK library.
 
-For some step of the algorithm code included in Thrust and CUDA example has been used. Tou can find details in CellSearch.cu file.
+Code included in Thrust and CUDA example was used for the implementation of some step of the algorithm. You can find details in CellSearch.cu file.
 
 Prerequisites
 =============
