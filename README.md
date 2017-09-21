@@ -14,14 +14,15 @@ Linux instruction for running demo
 ===========
 1. Copy TestAlgortihm anywhere you like and enter the folder
 
-     cd TestAlgorithm
+     cd TestAlgorithm/src
 
-2. Use the makefile_lib to compile the CUDA code 
+2. Use the makefile_lib to compile the CUDA code available in folder src 
 
-     make -f src/makefile_lib
+     make -f makefile_lib
 
 3. Compile Demo.cxx using cmake
 
+     cd ..
      ccmake . 
      
       (If VTK is not installed but compiled on your system, you will need to specify the path to your VTK build
