@@ -23,6 +23,7 @@ Linux instruction for running demo
 3. Compile Demo.cxx using cmake
 
      cd ..
+     
      ccmake . 
      
       (If VTK is not installed but compiled on your system, you will need to specify the path to your VTK build
