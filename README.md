@@ -12,9 +12,9 @@ VTK library
 
 Linux instruction for running demo 
 ===========
-1. Copy TestAlgortihm anywhere you like and enter the folder
+1. Copy STARAlgortihm anywhere you like and enter the folder
 
-     cd TestAlgorithm/src
+     cd STARAlgorithm/src
 
 2. Use the makefile_lib to compile the CUDA code available in folder src 
 
