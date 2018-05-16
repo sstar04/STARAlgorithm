@@ -14,28 +14,23 @@ Linux instruction for running demo
 ===========
 1. Copy STARAlgortihm anywhere you like and enter the folder
 
-     cd STARAlgorithm/src
+     cd STARAlgorithm
 
-2. Use the makefile_lib to compile the CUDA code available in folder src 
+2. Use CMakeLists.txt to compile the code sample Demo.cpp 
 
-     make -f makefile_lib
-
-3. Compile Demo.cxx using cmake
-
-     cd ..
-     
-     ccmake . 
+     mkdir build
+     cd build 
+     ccmake .. 
      
       (If VTK is not installed but compiled on your system, you will need to specify the path to your VTK build
-      
-       (see https://www.vtk.org/Wiki/VTK/Configure_and_Build for more details)
+      (see https://www.vtk.org/Wiki/VTK/Configure_and_Build for more details)
        
      make
 
 4. Run the executable FindBorder
 
-   Some data set examples are available in folder DataSetExample.
+   Some data set examples are available in folder DataSetExample, move the folder in the directory where you are running the code.
    
-   They consist in vtk files named "Cells#.vtk" which contains space coordinates and radius of the cells composing a simulated tumor spheroid.
+   The folder DataSetExamples contains vtk files named "Cells#.vtk" storing space coordinates and radius of the cells composing a simulated tumor spheroid.
    
    You can use the number of the file to select the dataset you want to analize. 
