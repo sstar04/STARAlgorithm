@@ -19,7 +19,9 @@ Linux instruction for running demo
 2. Use CMakeLists.txt to compile the code sample Demo.cpp 
 
      mkdir build
+     
      cd build 
+     
      ccmake .. 
      
       (If VTK is not installed but compiled on your system, you will need to specify the path to your VTK build
